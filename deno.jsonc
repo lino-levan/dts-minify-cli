@@ -1,0 +1,10 @@
+{
+  "name": "@lino/dts-minify-cli",
+  "version": "0.1.0",
+  "exports": "./main.ts",
+  "imports": {
+    "@david/dts-minify": "jsr:@david/dts-minify@0.3.3",
+    "@std/cli": "jsr:@std/cli@0.221.0",
+    "typescript": "npm:typescript@5.4.3"
+  }
+}

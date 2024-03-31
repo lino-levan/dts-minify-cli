@@ -1,0 +1,39 @@
+{
+  "version": "3",
+  "packages": {
+    "specifiers": {
+      "jsr:@david/dts-minify@0.3.3": "jsr:@david/dts-minify@0.3.3",
+      "jsr:@std/assert@^0.221.0": "jsr:@std/assert@0.221.0",
+      "jsr:@std/cli@0.221.0": "jsr:@std/cli@0.221.0",
+      "npm:typescript@5.4.3": "npm:typescript@5.4.3"
+    },
+    "jsr": {
+      "@david/dts-minify@0.3.3": {
+        "integrity": "7eb65970fae11e0576f9dcb152048e7ecab6cb7ce9c0d8f981921dd010c67605"
+      },
+      "@std/assert@0.221.0": {
+        "integrity": "a5f1aa6e7909dbea271754fd4ab3f4e687aeff4873b4cef9a320af813adb489a"
+      },
+      "@std/cli@0.221.0": {
+        "integrity": "157c2f881f0f85a73d994e7668754aeeccdf597680bd9c65de9c6bcd670416ac",
+        "dependencies": [
+          "jsr:@std/assert@^0.221.0"
+        ]
+      }
+    },
+    "npm": {
+      "typescript@5.4.3": {
+        "integrity": "sha512-KrPd3PKaCLr78MalgiwJnA25Nm8HAmdwN3mYUYZgG/wizIo9EainNVQI9/yDavtVFRN2h3k8uf3GLHuhDMgEHg==",
+        "dependencies": {}
+      }
+    }
+  },
+  "remote": {},
+  "workspace": {
+    "dependencies": [
+      "jsr:@david/dts-minify@0.3.3",
+      "jsr:@std/cli@0.221.0",
+      "npm:typescript@5.4.3"
+    ]
+  }
+}
